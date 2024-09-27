@@ -1,0 +1,71 @@
+  
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+h1{
+    text-align: center;
+    color: rgb(185, 12, 12);
+}
+h2{
+    margin: 0px 20%;
+    text-align: justify;
+}
+
+
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/dos-termometros-clima-calido-frio_1308-36010.jpg?t=st=1727408418~exp=1727412018~hmac=dedc0138663c4fb0099d499eb975e49717ac00b1064ae1fefc4f4f72876fd77d&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
+main{
+    margin: 1% auto;
+    display: grid;
+    place-items: center;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.775);
+}
+
+
+
+.contenidoTemperaturas{
+    display: grid;
+    margin: 0 22%;
+    /* place-items: center; */
+}
+
+.contenidoTemperaturas div{
+    margin: 0px 30%;
+    place-items: center;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    align-items: center;
+}
+.contenidoTemperaturas div p{
+    text-align: left;
+}
+
+
+input{
+    width: 100px;
+    height: 20px;
+    padding-left: 10px;
+    background-color: white;
+    font-size: 15px;
+    
+}
+
+.ajusteParrafo{
+    text-align: left;
+    margin: 15px 50px 0px;
+    font-size: 18px;
+    text-decoration: underline;
+
+}
